@@ -3,12 +3,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "CoreDataStack",
+    name: "BNRCoreDataStack",
     platforms: [
         .iOS(.v15),
     ],
     products: [
-        .library(name: "CoreDataStack", targets: ["CoreDataStack"]),
+        .library(name: "BNRCoreDataStack", targets: ["CoreDataStack"]),
     ],
     dependencies: [],
     targets: [
